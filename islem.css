@@ -1,0 +1,185 @@
+*{
+    margin:0 ;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    
+        margin-bottom: 40px;
+        background-color: #0b0b0b;
+        color: rgb(255, 255, 255);
+        border-radius: 0 0 40px 40px;
+}
+
+header h1{
+    margin-bottom: 10px;
+    text-size-adjust: 5px;
+}
+
+header h1:hover{
+    color:aquamarine;
+}
+
+.parent{
+
+    padding-top: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.parent li a{
+
+    color:bisque;
+    text-decoration: none;
+
+}
+
+.parent li a:hover{
+    color:aqua;
+    border-bottom: 2px solid aqua;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+li{
+  list-style-type: none;
+}
+
+h1{
+    text-align: center;
+    padding: 7px 0;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+section{
+   border: 3px solid coral;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+   box-shadow: 5px 5px 24px hotpink ;
+   border-radius: 13px;
+    padding: 12px 12px;
+
+}
+
+section h1{
+    color:coral;
+    background-color: blanchedalmond;
+    border-radius: 13px;
+    box-shadow: 5px 5px 24px greenyellow;
+
+}
+
+.left-section , .right-section{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+.left-section{
+    font-size: 30px;
+}
+
+.left-section:hover{
+  color:aqua;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.for{ 
+    margin-top: 20px;
+    }
+    
+    .f{
+        background-color: blue;
+        border: 8px  ;
+        border-radius: 22px;
+        color:white;
+        text-decoration: none;
+    
+    }
+    
+    .y{
+        background-color: rgb(157, 12, 12);
+        border: 8px  ;
+        border-radius: 22px;
+        color:white;
+        text-decoration: none;
+    
+    }
+
+
+.right-section{
+    margin-left: 20px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.right-section h5:hover{
+    color:aqua;
+}
+
+
+.img{
+    border-radius: 50% ;
+    border-right: 2px solid red;
+    border-left: 2px solid goldenrod;
+    border-bottom: 2px solid yellowgreen;
+    border-top: 2px solid aquamarine;
+}
+
+.right-section h5{
+    font-family: 'Lobster', cursive;
+    margin-top: 22px;
+    font-size: 44px;
+}
+.right-section p{
+    font-size: 54px;
+}
+
+
+
+.flex{
+    display: flex;
+   width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.two{
+    color:tomato;
+    border: 5px solid tomato;
+    border-radius: 22px; 
+     box-shadow: 5px 5px 24px hotpink ;
+     background-color: aliceblue;
+     
+    
+}
+
+footer{
+    border:5px solid blanchedalmond ;
+    text-align: center;
+    background-color: #0b0b0b;
+    color: rgb(255, 255, 255);
+    border-radius: 0 0 42px 42px;
+
+}
+
+footer a{
+    border: 5px solid blue;
+    border-radius: 22px;
+    background-color: blue;
+    text-decoration: none;
+    color: whitesmoke;
+}
